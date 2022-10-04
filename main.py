@@ -12,7 +12,10 @@ def init():
         date string,
         name string,
         title string,
-        Bonds number
+        Bonds number,
+        Grade,
+        SP Rating,
+        Moodys
         )
     '''
     curr.execute(query)
@@ -48,7 +51,7 @@ def viewBonds():
     print(rows)
     print(amount)
     
-    l = Label(root,text="Date\t  Name\t  Title\t  Bonds",font=('arial',15,'bold'),bg="gray41",fg="white")
+    l = Label(root,text="Date\t  Name\t  Title\t  Bonds\t  Grade\t  SP Rating\t  Moody's_Rating\t",font=('arial',15,'bold'),bg="gray41",fg="white")
     l.grid(row=6,column=0,padx=7,pady=7)
 
     st=""
