@@ -1,5 +1,7 @@
 # Financial Bonds Tracker tool
-Bond Tracker with pricing and volatility calculators to keep track of your investments. Using Python, TKinter, and SQLite3 we can track investments securely and efficiently.
+Bond Tracker with pricing and volatility calculators to keep track of your investments. This project is GUI-based using TKinter modules such as Tkcalendar and SQLite3. The main object of this project was to implement a database into a real-world project. 
+## About:
+Desktop application to keep track of bonds that the user purchased. The synopsis of this project is the Python script of the project connects to the database and stores the necessary inputs as information. In addition, the program allows the user to perform CRUD operations (Create, Read, Update, Delete) on the data tables. 
 ##
 ![image](https://user-images.githubusercontent.com/75659218/190875672-3c5c116c-2f52-460b-80f3-b7a31e267f53.png)
 ##
